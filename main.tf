@@ -1,6 +1,9 @@
 /**
  * # ![AWS](aws-logo.png) SSM ParameterStore parameters
  *
+ * [![CI](https://github.com/figurate/terraform-aws-ssm-parameters/actions/workflows/main.yml/badge.svg)](https://github.com/figurate/terraform-aws-ssm-parameters/actions/workflows/main.yml)
+ *
+ *
  * Purpose: Configure parameters in AWS SSM ParameterStore
  */
 resource "aws_ssm_parameter" "parameters" {
